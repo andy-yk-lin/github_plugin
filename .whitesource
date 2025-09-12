@@ -3,10 +3,10 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches": [main]
   },
   "scanSettingsSAST": {
-    "enableScan": false,
+    "enableScan": true,
     "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
@@ -32,7 +32,17 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "enableRenovate": true,
+    "extends": ["mergeConfidence:all-badges"],
+    "packageRules": [
+      {
+        "matchUpdateTypes": ["major", "minor", "patch"],
+        "automerge": true,
+        "automergeType": "pr"
+      }
+    ],
+    "platformAutomerge": true
   },
    "imageSettings":{
        "imageTracing":{
