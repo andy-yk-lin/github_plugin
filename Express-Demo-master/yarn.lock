@@ -2345,12 +2345,12 @@ send@0.19.1:
     range-parser "~1.2.1"
     statuses "2.0.1"
 
-serve-static@1.16.1:
-  version "1.16.1"
-  resolved "https://registry.yarnpkg.com/serve-static/-/serve-static-1.16.1.tgz#ef5b5e8c045446a12e0efe1cb2bc2246dbcf4b66"
-  integrity sha512-lQEnvznm+LlIN7a5B/LdKGFt1b/a+L/DNojweniJHyoBxqQlAVnv0QC5UuRbQC4udn3n4Tj2pcvbJa3Wiqwxtw==
+serve-static@1.16.2:
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/serve-static/-/serve-static-1.16.2.tgz#b6a5343da47f6bdd2673848bf45754941e803296"
+  integrity sha512-VqpjJZKadQB/PEbEwvFdO43Ax5dFBZ2UECszz8bQ7pi7wt//PWe1P6MN7eCnjsatYtBT6EuiClbjSWP2WrIoTw==
   dependencies:
-    encodeurl "~1.0.2"
+    encodeurl "~2.0.0"
     escape-html "~1.0.3"
     parseurl "~1.3.3"
     send "0.19.0"
