@@ -70,7 +70,7 @@
     "cookie-session": "1.4.0",
     "ejs": "2.7.4",
     "eslint": "2.13.1",
-    "express-session": "1.17.0",
+    "express-session": "1.18.2",
     "hbs": "4.1.0",
     "istanbul": "0.4.5",
     "marked": "0.7.0",
