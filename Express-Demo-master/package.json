@@ -36,7 +36,7 @@
     "content-type": "~1.0.4",
     "cookie": "1.0.2",
     "cookie-signature": "1.2.2",
-    "debug": "2.6.9",
+    "debug": "4.4.3",
     "depd": "~1.1.2",
     "encodeurl": "~1.0.2",
     "escape-html": "~1.0.3",
